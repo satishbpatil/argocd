@@ -1,0 +1,10 @@
+argocd:
+    dex:
+        enabled: false
+    notifications:
+        enabled: false
+    applicaitonSet:
+        enabled: false
+    server:
+        extraArgs:
+            -   --insure
