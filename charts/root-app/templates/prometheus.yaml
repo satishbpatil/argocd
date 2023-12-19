@@ -16,7 +16,7 @@ spec:
                     enabled: false
     destination:
         server: https://kubernetes.default.svc
-        namespace: prometheus
+        namespace: default
     syncPolicy:
         automated:
             prune: true
